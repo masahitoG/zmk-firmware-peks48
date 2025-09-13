@@ -43,9 +43,9 @@
 
         default_layer {
             bindings = <
-&kp TAB     &kp Q      &kp W     &kp E     &kp R             &kp T              &kp Y            &kp U        &kp I        &kp O           &kp P           &kp DELETE
-&kp LCTRL   &kp A      &kp S     &kp D     &kp F             &kp G              &kp H            &kp J        &kp K        &kp L           &kp SEMICOLON   &kp MINUS
-&kp LSHIFT  &kp Z      &kp X     &kp C     &kp V             &kp B              &kp N            &kp M        &kp COMMA    &kp DOT         &kp UP_ARROW    &kp SLASH
+&kp TAB     &kp Q      &kp W     &kp E     &kp R             &kp T              &kp Q            &kp L        &kp U        &kp COMMA       &kp PERIOD      &none
+&kp LCTRL   &kp A      &kp S     &kp D     &kp F             &kp G              &kp E            &kp I        &kp A        &kp O           &kp MINUS       &none
+&kp LSHIFT  &kp Z      &kp X     &kp C     &kp V             &kp B              &kp Z            &kp X        &kp C        &kp V           &kp SEMICOLON   &none
 &kp ESC     &kp LCTRL  &kp LWIN  &kp LALT  &mt LSHIFT SPACE  &lt 1 JP_HANZEN    &lt 2 BACKSPACE  &lt 3 ENTER  &bootloader  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
@@ -61,10 +61,10 @@
 
         layer_2 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp JP_AT  &kp POUND  &kp DOLLAR  &kp PERCENT     &kp JP_CARET  &kp JP_AMPERSAND   &kp JP_ASTERISK   &kp MINUS    &kp UNDERSCORE   &trans
-&trans  &kp GRAVE        &kp TILDE  &trans     &trans      &kp C_VOL_UP    &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &trans
-&trans  &trans           &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
-&trans  &trans           &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
+&trans  &kp EXCLAMATION  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &kp PERCENT     &kp JP_CARET  &kp JP_AMPERSAND   &kp JP_ASTERISK   &kp MINUS    &kp UNDERSCORE   &trans
+&trans  &kp GRAVE        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_VOL_UP    &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &trans
+&trans  &trans           &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans          &trans        &trans             &trans            &trans       &trans           &trans
+&trans  &trans           &trans          &trans          &trans           &trans          &trans        &trans             &trans            &trans       &trans           &trans
             >;
         };
 
