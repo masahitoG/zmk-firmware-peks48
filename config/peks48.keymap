@@ -43,9 +43,9 @@
 
         default_layer {
             bindings = <
-&kp TAB     &kp Q      &kp W     &kp E     &kp R             &kp T              &kp Q            &kp L        &kp U        &kp COMMA       &kp PERIOD      &none
-&kp LCTRL   &kp A      &kp S     &kp D     &kp F             &kp G              &kp E            &kp I        &kp A        &kp O           &kp MINUS       &none
-&kp LSHIFT  &kp Z      &kp X     &kp C     &kp V             &kp B              &kp Z            &kp X        &kp C        &kp V           &kp SEMICOLON   &none
+&kp TAB     &kp F      &kp W     &kp R     &kp R             &kp T              &kp Q            &kp L        &kp U        &kp COMMA       &kp PERIOD      &none
+&kp LCTRL   &kp K      &kp S     &kp D     &kp F             &lt 2 H            &kp E            &kp I        &kp A        &kp O           &kp MINUS       &none
+&kp LSHIFT  &kp G      &kp X     &kp C     &kp V             &kp B              &kp Z            &kp X        &kp C        &kp V           &kp SEMICOLON   &none
 &kp ESC     &kp LCTRL  &kp LWIN  &kp LALT  &mt LSHIFT SPACE  &lt 1 JP_HANZEN    &lt 2 BACKSPACE  &lt 3 ENTER  &bootloader  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
